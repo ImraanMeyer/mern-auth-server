@@ -1,0 +1,22 @@
+POST http://localhost:8000/api/signup
+Content-Type: application/json
+
+{
+    "name": "Imraan",
+    "email": "imraan.meyer97@gmail.com",
+    "password": "imower12"
+}
+
+###
+
+POST http://localhost:8000/api/account-activation
+Content-Type: application/json
+Accept: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSW1yYWFuIiwiZW1haWwiOiJpbXJhYW4ubWV5ZXI5N0BnbWFpbC5jb20iLCJwYXNzd29yZCI6Imltb3dlcjEyIiwiaWF0IjoxNTg1NDIzMzc3LCJleHAiOjE1ODU0MjM5Nzd9.Ud8bKFvCvEiBDRCy9oV9p5mnktqA1EKXQiJC5bNOOXI"
+}
+
+###
+
+GET http://localhost:8000/api/user/5e8225ee5c3eed5e98b47c32

@@ -1,0 +1,26 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "express server to handle routes",
+    "main": "app.js",
+    "author": "Imraan Meyer",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "start": "node app.js",
+        "server": "nodemon app.js"
+    },
+    "dependencies": {
+        "@sendgrid/mail": "^6.5.5",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-jwt": "^5.3.1",
+        "express-validator": "^6.4.0",
+        "google-auth-library": "^6.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.6",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.2"
+    }
+}
